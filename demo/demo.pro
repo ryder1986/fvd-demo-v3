@@ -32,3 +32,6 @@ HEADERS  += mainwindow.h\
 FORMS    += mainwindow.ui
 CONFIG +=c++11
 unix:DEFINES+=IS_UNIX
+install_files.files=cfg
+install_files.path=$$OUT_PWD
+INSTALLS+=install_files
